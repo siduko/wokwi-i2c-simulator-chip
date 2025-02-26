@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "name": "I2C Simulator",
+  "author": "VuLDH",
+  "license": "MIT",
+  "docs": "https://github.com/siduko/i2c-simulator-chip/blob/main/docs/README.md",
+  "pins": [
+    "INT",
+    "SCL",
+    "SDA",
+    "GND",
+    "VCC",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "threshold",
+      "label": "LED Threshold",
+      "type": "range",
+      "min": 1,
+      "max": 255,
+      "step": 1
+    }
+  ]
+}
